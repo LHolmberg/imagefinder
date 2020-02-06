@@ -75,6 +75,7 @@
 		810C8EDF23EB6E4600289890 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8145CD7A23EC6AF5009E16B1 /* TTableViewCell.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -82,9 +83,6 @@
 		810C8EE023EB6E5300289890 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				810C8ECF23EB598200289890 /* Home.swift */,
-				8145CD7823EC6714009E16B1 /* LikedPicturesFeed.swift */,
-				8145CD7A23EC6AF5009E16B1 /* TTableViewCell.swift */,
 				8145CD7C23EC71C1009E16B1 /* RoundedButton.swift */,
 			);
 			path = View;
@@ -93,6 +91,8 @@
 		810C8EE123EB6E5E00289890 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8145CD7823EC6714009E16B1 /* LikedPicturesFeed.swift */,
+				810C8ECF23EB598200289890 /* Home.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";

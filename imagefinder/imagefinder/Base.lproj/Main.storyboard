@@ -26,7 +26,7 @@
                                 </constraints>
                                 <state key="normal" image="icons8-facebook-like-64"/>
                                 <connections>
-                                    <action selector="DoCalculate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TEg-Im-lCE"/>
+                                    <action selector="LikeImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vmr-6B-4iH"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dMO-js-JoZ">
