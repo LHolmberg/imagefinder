@@ -1,3 +1,5 @@
-
-![alt text](https://raw.githubusercontent.com/lholmberg/imagefinder/master/screenshots/home.png)
-![alt text](https://raw.githubusercontent.com/lholmberg/imagefinder/master/screenshots/likedpictures.png)
+# What I specifically learned or now know more about:
+- UITableViews
+- Networking
+- Structure of data
+- Customized views
