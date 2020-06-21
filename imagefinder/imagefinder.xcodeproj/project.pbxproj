@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DDBC0B5C98EBC119F98DF6A /* Pods_imagefinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7121D95EFE509C4B115741A7 /* Pods_imagefinder.framework */; };
 		810C8ECE23EB598200289890 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810C8ECD23EB598200289890 /* AppDelegate.swift */; };
 		810C8ED023EB598200289890 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810C8ECF23EB598200289890 /* Home.swift */; };
 		810C8ED323EB598200289890 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810C8ED123EB598200289890 /* Main.storyboard */; };
@@ -15,9 +16,13 @@
 		8145CD7923EC6714009E16B1 /* LikedPicturesFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8145CD7823EC6714009E16B1 /* LikedPicturesFeed.swift */; };
 		8145CD7B23EC6AF5009E16B1 /* TTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8145CD7A23EC6AF5009E16B1 /* TTableViewCell.swift */; };
 		8145CD7D23EC71C1009E16B1 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8145CD7C23EC71C1009E16B1 /* RoundedButton.swift */; };
+		81BDB04124A0114D004018BA /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BDB04024A0114D004018BA /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57EE7DA6B5DD60EEC4F0DDE5 /* Pods-imagefinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imagefinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-imagefinder/Pods-imagefinder.debug.xcconfig"; sourceTree = "<group>"; };
+		640AB64C41513FB066D3DDC3 /* Pods-imagefinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imagefinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-imagefinder/Pods-imagefinder.release.xcconfig"; sourceTree = "<group>"; };
+		7121D95EFE509C4B115741A7 /* Pods_imagefinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_imagefinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		810C8ECA23EB598200289890 /* imagefinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imagefinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		810C8ECD23EB598200289890 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		810C8ECF23EB598200289890 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -28,6 +33,7 @@
 		8145CD7823EC6714009E16B1 /* LikedPicturesFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedPicturesFeed.swift; sourceTree = "<group>"; };
 		8145CD7A23EC6AF5009E16B1 /* TTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTableViewCell.swift; sourceTree = "<group>"; };
 		8145CD7C23EC71C1009E16B1 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		81BDB04024A0114D004018BA /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DDBC0B5C98EBC119F98DF6A /* Pods_imagefinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49115050E09E5024D3DDC4C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57EE7DA6B5DD60EEC4F0DDE5 /* Pods-imagefinder.debug.xcconfig */,
+				640AB64C41513FB066D3DDC3 /* Pods-imagefinder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4DB01C52C1BA57D7D3E45B07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7121D95EFE509C4B115741A7 /* Pods_imagefinder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		810C8EC123EB598200289890 = {
 			isa = PBXGroup;
 			children = (
 				810C8ECC23EB598200289890 /* imagefinder */,
 				810C8ECB23EB598200289890 /* Products */,
+				49115050E09E5024D3DDC4C7 /* Pods */,
+				4DB01C52C1BA57D7D3E45B07 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				8145CD7C23EC71C1009E16B1 /* RoundedButton.swift */,
+				81BDB04024A0114D004018BA /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -104,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 810C8EDC23EB598400289890 /* Build configuration list for PBXNativeTarget "imagefinder" */;
 			buildPhases = (
+				D921E52C933954422554F94E /* [CP] Check Pods Manifest.lock */,
 				810C8EC623EB598200289890 /* Sources */,
 				810C8EC723EB598200289890 /* Frameworks */,
 				810C8EC823EB598200289890 /* Resources */,
+				93025054F55226254857D003 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,6 +192,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		93025054F55226254857D003 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-imagefinder/Pods-imagefinder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-imagefinder/Pods-imagefinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D921E52C933954422554F94E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-imagefinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		810C8EC623EB598200289890 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -170,6 +238,7 @@
 			files = (
 				810C8ED023EB598200289890 /* Home.swift in Sources */,
 				8145CD7D23EC71C1009E16B1 /* RoundedButton.swift in Sources */,
+				81BDB04124A0114D004018BA /* GradientView.swift in Sources */,
 				8145CD7923EC6714009E16B1 /* LikedPicturesFeed.swift in Sources */,
 				8145CD7B23EC6AF5009E16B1 /* TTableViewCell.swift in Sources */,
 				810C8ECE23EB598200289890 /* AppDelegate.swift in Sources */,
@@ -316,6 +385,7 @@
 		};
 		810C8EDD23EB598400289890 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57EE7DA6B5DD60EEC4F0DDE5 /* Pods-imagefinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -334,6 +404,7 @@
 		};
 		810C8EDE23EB598400289890 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 640AB64C41513FB066D3DDC3 /* Pods-imagefinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

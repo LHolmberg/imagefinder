@@ -1,11 +1,3 @@
-//
-//  TTableViewCell.swift
-//  imagefinder
-//
-//  Created by Lukas Holmberg on 2020-02-06.
-//  Copyright © 2020 Stefan Holmberg. All rights reserved.
-//
-
 import UIKit
 
 class TTableViewCell: UITableViewCell {
